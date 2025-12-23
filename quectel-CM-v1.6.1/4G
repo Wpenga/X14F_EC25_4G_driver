@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+if [ $# -eq 1 ]
+then
+	case "$1" in
+	on)
+sudo  quectel_su
+;;
+	off)
+sudo killall quectel-CM
+sudo killall quectel-CM.sh
+;;
+	*) 
+echo "参数错误，请输入on或者off";;
+esac
+else
+echo "请输入参数on或者off"
+fi
+

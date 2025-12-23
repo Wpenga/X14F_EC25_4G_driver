@@ -1,0 +1,1 @@
+cmd_/home/kylin/X14F_EC25_4G_driver/qmi_wwan_V1.2.0.14/qmi_wwan.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/kylin/X14F_EC25_4G_driver/qmi_wwan_V1.2.0.14/qmi_wwan.ko /home/kylin/X14F_EC25_4G_driver/qmi_wwan_V1.2.0.14/qmi_wwan.o /home/kylin/X14F_EC25_4G_driver/qmi_wwan_V1.2.0.14/qmi_wwan.mod.o;  true
